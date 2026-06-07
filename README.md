@@ -110,4 +110,4 @@ The repository includes the following output files:
 - mobilenet_accuracy_curve.png
 - mobilenet_loss_curve.png
 - mobilenet_confusion_matrix.png
-- model_comparison.csv
+- model_comparison.png
