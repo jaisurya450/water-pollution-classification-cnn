@@ -111,3 +111,15 @@ The repository includes the following output files:
 - mobilenet_loss_curve.png
 - mobilenet_confusion_matrix.png
 - model_comparison.png
+
+## Instructions for Running the Code
+
+### Run on Kaggle (Recommended)
+1.⁠ ⁠Go to [Kaggle](https://www.kaggle.com) and sign in
+2.⁠ ⁠Click *"Create"* → *"New Notebook"*
+3.⁠ ⁠Upload the file ⁠ cnn-based-water-pollution-classification.ipynb ⁠
+4.⁠ ⁠Click *"Add Data"* on the right side panel
+5.⁠ ⁠Search for *"Water Pollution Classification Dataset"* by ferix01
+6.⁠ ⁠Add the dataset to your notebook
+7.⁠ ⁠Set accelerator to *GPU* — click Settings → Accelerator → GPU T4
+8.⁠ ⁠Click *"Run All"* to execute all cells in order
