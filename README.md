@@ -115,11 +115,26 @@ The repository includes the following output files:
 ## Instructions for Running the Code
 
 ### Run on Kaggle (Recommended)
-1.⁠ ⁠Go to [Kaggle](https://www.kaggle.com) and sign in
-2.⁠ ⁠Click *"Create"* → *"New Notebook"*
-3.⁠ ⁠Upload the file ⁠ cnn-based-water-pollution-classification.ipynb ⁠
-4.⁠ ⁠Click *"Add Data"* on the right side panel
-5.⁠ ⁠Search for *"Water Pollution Classification Dataset"* by ferix01
-6.⁠ ⁠Add the dataset to your notebook
-7.⁠ ⁠Set accelerator to *GPU* — click Settings → Accelerator → GPU T4
-8.⁠ ⁠Click *"Run All"* to execute all cells in order
+
+1. Go to Kaggle and sign in to your account.
+2. Click **Create → New Notebook**.
+3. Upload the file `cnn-based-water-pollution-classification.ipynb`.
+4. Click **Add Data** on the right-side panel.
+5. Search for **Water Pollution Classification Dataset** by **ferix01**.
+6. Add the dataset to the notebook.
+7. Enable GPU acceleration:
+   - Click **Settings**
+   - Select **Accelerator**
+   - Choose **GPU T4**
+8. Click **Run All** to execute all notebook cells in sequence.
+9. Wait for the training process to complete.
+10. The notebook will automatically generate:
+    - CNN Accuracy Curve
+    - CNN Loss Curve
+    - CNN Confusion Matrix
+    - MobileNetV2 Accuracy Curve
+    - MobileNetV2 Loss Curve
+    - MobileNetV2 Confusion Matrix
+    - Model Comparison Table
+11. Review the final evaluation metrics and output figures.
+
